@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.maindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.bgimg {
+  background-image: url("../public/anime_image_219465c6cf.png");
+  background-size: cover;
+  height: 105vh;
+  z-index: -1;
+
+  /* background-attachment: fixed; */
+}
+.form-bg {
+  background: rgba(95, 158, 177, 0.432);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
